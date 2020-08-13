@@ -22,11 +22,11 @@ client.on('ready',()=>{
 	startRefreshTokenPolling();//ater bot is online start polling
 })
 
-client.on('message',msg=>{
-	if(msg.content==='hi'){
-			msg.reply("hello");
-	}
-})
+// client.on('message',msg=>{
+// 	if(msg.content==='hi'){
+// 			msg.reply("hello");
+// 	}
+// })
 
 
 async function startMediaPolling() {
